@@ -1,6 +1,6 @@
-selector { /*domain*/
-    property: value; /*element*/
-}
+/*selector { /domain/
+    property: value; /element/
+}*/
 body {
     background-color: pink;
 }
