@@ -1,0 +1,9 @@
+selector { /*domain*/
+    property: value; /*element*/
+}
+body {
+    background-color: pink;
+}
+p {
+    background-color: white;
+}
