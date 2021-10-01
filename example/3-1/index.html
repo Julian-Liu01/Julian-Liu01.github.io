@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Example 3-1</title>
+        <title>Example 3-1:Import Google Fonts</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            /* Import fonts only for this page*/
+            /* @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital@1&display=swap'); */
+        body {
+            font-family: Open Sans, sans-serif;/*備用字體呈現方式*/
+        }
+        </style>
     </head>
     <body>
-
+        <p>This line uses a sans-serif font.</p>
+        <p style = "font-family: Merriweather, serif;">This line uses a serif font.</p>
     </body>
 </html>
