@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
     <head>
-        <title>Example:3-3</title>
+        <title>Example:3-3 Border-box vs. Content-Box</title>
         <meta charset="UTF-8">
     </head>
     <body>
-
+        <div style="background-color:bisque; width: 300px; border: 10px solid black;
+            box-sizing:border-box;">
+            This is a border-box.
+        </div>
+        <div style="background-color:rgb(196, 255, 196); width: 300px; border: 10px solid black;
+            box-sizing:content-box;">
+            This is a content-box.
+        </div>
     </body>
 </html>
