@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Examples 4-1</title>
+    <title>Examples 4-1: Relative Positioning</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/default.css"><!--".."回到上一層-->
+    <style>
+        div {
+            position: relative;
+            top: 50px;
+            left: 30px;
+        }
+
+        article {
+            background-color: crimson;
+        }
+    </style>
 </head>
-<body>
-    <div></div>
+<body style="background-color: beige;">
+    <article>
+        This is an article
+    </article>
+    <div style="background-color: orange; width: 300px; height: 300px;">
+        This is a division block.
+    </div>
 </body>
 </html>
