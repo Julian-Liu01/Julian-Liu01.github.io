@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>5-4: HTML Structure and CSS Pseudo-class</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css">
+        <style>
+            body {
+                font-size: 24px;
+            }
+
+            p:first-of-type {
+                background-color: orange;
+            }
+
+            p:first-of-type:hover {
+                background-color: greenyellow;
+            }
+            /* div {
+                background-color: crimson;
+            } */
+
+            /* div:last-of-type {
+                background-color: yellow;
+            } */
+
+            div:not(:last-of-type) {
+                background-color: crimson;
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is s paragraph</p>
+        <div>
+            This is a div
+            <p>This is another paragraph</p>
+            <p>This is  the last paragraph</p>
+        </div>
+        <div>
+            Here is just another div.
+        </div>
+        <div>
+            I don't like other div.
+        </div>
+    </body>
+</html>

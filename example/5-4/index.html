@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>5-4: HTML Structure and CSS Selector</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css">
+        <style>
+            body {
+                font-size: 24px;
+            }
+
+            p {
+                background-color:beige;
+            }
+
+           /* p#first {
+                background-color:pink;
+            } */
+
+           /* div {
+                background-color: crimson;
+            } */
+
+           /* div.friends {
+                background-color:blue;
+            } */
+
+           /* body > p {
+                background-color:brown;
+            } */
+
+            body p {
+                background-color:blue;
+            }
+
+           /* p + div {
+                background-color:crimson;
+            }/*在旁邊*/
+           /* p ~ div {
+                background-color:crimson;
+            }/*之間*/
+        </style>
+    </head>
+    <body>
+        <p id="first">This is s paragraph</p>
+        <div class="friends">
+            This is a div
+            <p>This is another paragraph</p>
+            <p>This is  the last paragraph</p>
+        </div>
+        <div class="friends">
+            Here is just another div.
+        </div>
+        <div>
+            I don't like other div.
+        </div>
+    </body>
+</html>
