@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body, h1 {
+    top: 20px;
+    font-family: 'Caveat', cursive;
+    background-color: #DAC9A6;
+    padding:15px 20px;
+}
+
+nav {
+    font-family: 'Caveat', cursive;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 2vh;
+    line-height: 3vh;
+}
+
+nav > a {
+    background-color: #B5CAA0;
+    color: #26453D;
+    padding: 3px 6px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+nav > a:not(:first-of-type) {
+    border-left: solid 2px #DAC9A6;
+    font-family: 'Caveat', cursive;
+}
+
+nav > a:first-of-type {
+    width: 3.6vw;
+}
+
+nav > a:hover {
+    opacity: 0.95;
+}
+nav > a:visited {
+    color: #CC543A;
+}
+
+a, a:visited {
+    color: #323232;
+    text-decoration: none;
+}
+
+section {
+    margin: 1.2vh 0;
+}
+
+p {
+    font-size: 20px;
+}
