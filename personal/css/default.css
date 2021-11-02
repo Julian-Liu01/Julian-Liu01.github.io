@@ -1,7 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 html {
@@ -9,14 +12,20 @@ html {
     width: 100%;
 }
 
-body, h1 {
+body {
     top: 20px;
     font-family: 'Caveat', cursive;
     background-color: #DAC9A6;
     padding:15px 20px;
 }
 
+h1 {
+    padding: 15px 20px;
+    background-color: #B1B479;
+}
+
 nav {
+    overflow: hidden;
     font-family: 'Caveat', cursive;
     position: fixed;
     top: 10px;
@@ -54,10 +63,16 @@ a, a:visited {
     text-decoration: none;
 }
 
-section {
-    margin: 1.2vh 0;
-}
-
 p {
     font-size: 20px;
+}
+
+.cn {
+    font-family: 'cwTwXYen', sans-serif;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 350;
+    background-color: #B1B479;
+    padding: 20px;
+    margin-top: 20px;
 }
