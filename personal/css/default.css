@@ -12,11 +12,12 @@ html {
     width: 100%;
 }
 
+
 body {
     top: 20px;
     font-family: 'Caveat', cursive;
     background-color: #DAC9A6;
-    padding:15px 20px;
+    padding: 15px 20px;
 }
 
 h1 {
