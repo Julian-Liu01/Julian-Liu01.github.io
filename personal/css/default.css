@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 
-img {
+/*img {
     margin-left: 10%;
     text-align: center;
     width: 80%;
     height: auto;
-}
+}*/
 
 html {
     height: 100%;
@@ -16,9 +16,14 @@ html {
 
 
 body {
-    top: 20px;
     font-family: 'Caveat', cursive;
-    background-color: #DAC9A6;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image: url("../aoihana01.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding: 15px 20px;
 }
 
@@ -62,7 +67,7 @@ nav > a:visited {
 }
 
 a, a:visited {
-    color: #323232;
+    color: rgb(150, 67, 67);
     text-decoration: none;
 }
 
@@ -76,6 +81,12 @@ p {
     font-size: 18px;
     font-weight: 350;
     background-color: #B1B479;
+    opacity: 0.8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.en {
     padding: 20px;
     margin-top: 20px;
 }
