@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<title>Quiz 6</title>
+		<script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
+		<style>
+			/* Do NOT change anything in <style> */
+			div {
+				display: inline-block;
+				margin: 10px;
+				height: 50px;
+				width: 50px;
+				background-color: green;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+				 /* Edit your script here to complete the quiz */
+				 //let DivOne = document.getElementById('d1');
+				 /*let changeButton = document.getElementById('b1');
+    				changeButton.addEventListener('click', function() {
+					DivOne.style.cssText='background-color: red; height: 100px; width: 40px;';
+					});*/
+
+					$('body > button#b1').on('click', function(event) {
+						let newCSS01 = {
+							'background-color': 'red',
+							'height': '100px',
+							'width': '40px'
+						};
+						$(this).css(newCSS01);
+					});
+
+				//let DivTwo = document.getElementById('d2');
+				/*let changeButton2 = document.getElementById('b2');
+					changeButton2.addEventListener('click', function() {
+					DivTwo.style.cssText='background-color: black; height: 60px; width: 150px;';
+					});*/
+
+					$('body > button#b2').on('click', function(event) {
+						let newCSS02 = {
+							'background-color': 'black',
+							'height': '60px',
+							'width': '150px'
+						};
+						$(this).css(newCSS02);
+					});
+
+				//let DivTrd = document.getElementById('d3');
+				/*let changeButton3 = document.getElementById('b3');
+					changeButton3.addEventListener('click', function() {
+					DivTrd.style.cssText='background-color: gold; height: 200px; width: 200px;';
+					});*/
+
+					$('body > button#b3').on('click', function(event) {
+						let newCSS03 = {
+							'background-color': 'gold',
+							'height': '200px',
+							'width': '200px'
+						};
+						$(this).css(newCSS03);
+					});
+
+			};
+		</script>
+	</head>
+	<body>
+		<!-- You can add attributes to any HTML element, but you cannot change/add/remove any HTML element -->
+		<div id='d1'>1</div> <!-- The first <div> needs to have a red background color and a size of 100 x 40 px -->
+		<div id='d2'>2</div> <!-- The second <div> needs to have a black background color and a size of 60 x 150 px -->
+		<div id='d3'>3</div> <!-- The third <div> needs to have a gold background color and a size of 200 x 200 px -->
+		<!-- Each of the <button> below must change one <div> based on the text description -->
+		<button id='b1'>Change Div 1</button>
+		<button id='b2'>Change Div 2</button>
+		<button id='b3'>Change Div 3</button>
+	</body>
+</html>
