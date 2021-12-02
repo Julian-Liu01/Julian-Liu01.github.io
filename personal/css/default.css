@@ -90,3 +90,13 @@ p {
     padding: 20px;
     margin-top: 20px;
 }
+
+.en2 {
+    font-family: 'Caveat', cursive;
+    padding: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    background-color: #B1B479;
+    opacity: 0.8;
+}
