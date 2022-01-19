@@ -2,73 +2,26 @@
     box-sizing: border-box;
 }
 
-/*img {
-    margin-left: 10%;
-    text-align: center;
-    width: 80%;
-    height: auto;
-}*/
-
 html {
     height: 100%;
     width: 100%;
 }
-
-
-body {
+a {
     font-family: 'Caveat', cursive;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.7);
-    background-image: url("../aoihana01.jpeg");
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 15px 20px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #C1693C;
+    text-decoration: none;
 }
 
 h1 {
-    padding: 15px 20px;
-    background-color: #B1B479;
-}
-
-nav {
-    overflow: hidden;
     font-family: 'Caveat', cursive;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    font-size: 2vh;
-    line-height: 3vh;
-}
-
-nav > a {
-    background-color: #B5CAA0;
-    color: #26453D;
-    padding: 3px 6px;
-    text-decoration: none;
-    opacity: 0.6;
-}
-
-nav > a:not(:first-of-type) {
-    border-left: solid 2px #DAC9A6;
-    font-family: 'Caveat', cursive;
-}
-
-nav > a:first-of-type {
-    width: 3.6vw;
-}
-
-nav > a:hover {
-    opacity: 0.95;
-}
-nav > a:visited {
-    color: #CC543A;
-}
-
-a, a:visited {
-    color: rgb(150, 67, 67);
-    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color:  #B1B479;
 }
 
 p {
@@ -100,3 +53,72 @@ p {
     background-color: #B1B479;
     opacity: 0.8;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #B1B479;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #26453D;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color:#DAC9A6;
+  color: white;
+}
+
+body > img#bg {
+	position: fixed;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+
+div#backToTop {
+	background-color: #4d4d4d;
+	color: white;
+	font-size: 70%;
+	left: 80%;
+	bottom: 10%;
+	position: fixed;
+	cursor: pointer;
+	opacity: 0.75;
+	padding: 0.5vh 1vw;
+	opacity: 0.75;
+	transition: opacity 0.3s ease-in;
+	display: none;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+div#backToTop:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease-out;
+}
+
+div.img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: border-box;
+	width: border-box;
+	line-height: border-box;
+	text-align: center;
+}
+/*
+div.img:nth-of-type(1) {
+}
+
+div.img:nth-of-type(2) {
+}
+
+div.img:nth-of-type(3) {
+	background-color:  #B1B479;
+}*/

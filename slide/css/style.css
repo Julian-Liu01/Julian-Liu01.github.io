@@ -1,0 +1,31 @@
+body {
+	position: relative;
+}
+
+div {
+	/* Set the position to "absolute", so all DIVs are taken
+	   out of the original layout flow. They are align to the
+		 top-left corner of their parent element set to have a
+		 non-static position (<body> in this case), and all DIVs
+		 overlap, with DIV3 on top of the other two since it's
+		 the last DIV among these siblings. */
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+div:nth-of-type(1) {
+	background-color: crimson;
+}
+
+div:nth-of-type(2) {
+	background-color: gold;
+}
+
+div:nth-of-type(3) {
+	background-color: purple;
+}
